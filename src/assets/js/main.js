@@ -52,9 +52,7 @@ $(function () {
         autoplay: true,
         effect: 'fade',
         parallax: true,
-        autoplay: {
-            delay: 5000,
-        },
+
         loop: true,
         pagination: {
             el: '.mil-pagination',
@@ -70,9 +68,7 @@ $(function () {
         autoplay: true,
         effect: 'fade',
         parallax: true,
-        autoplay: {
-            delay: 5000,
-        },
+
         loop: true,
         navigation: {
             prevEl: '.mil-banner-prev',
@@ -268,7 +264,7 @@ $(function () {
 
     const input = document.getElementById('mil-file-input');
     const label = document.getElementsByClassName("mil-custom-file-input")[0];
-    
+
     if ( input != undefined ) {
         input.addEventListener("change", () => {
             const file = input.value;
