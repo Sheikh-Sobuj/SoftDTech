@@ -55,7 +55,7 @@ const routes: Routes = [
     component: ComingSoonComponent,
   },
   {
-    path: 'contact',
+    path: 'contact_us',
     component: ContactComponent,
   },
   {

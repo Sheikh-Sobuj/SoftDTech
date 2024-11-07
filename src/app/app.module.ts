@@ -26,6 +26,8 @@ import {Solution1Component} from "./Demo-Comp/solution-1/solution-1.component";
 import {Solution2Component} from "./Demo-Comp/solution-2/solution-2.component";
 import { TeamComponent } from './Demo-Comp/team/team.component';
 import { TeamSingleComponent } from './Demo-Comp/team-single/team-single.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { TeamSingleComponent } from './Demo-Comp/team-single/team-single.compone
     Solution2Component,
     TeamComponent,
     TeamSingleComponent,
+    HeaderComponent,
+    FooterComponent,
 
 
   ],
