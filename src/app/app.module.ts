@@ -13,7 +13,6 @@ import { ComingSoonComponent } from './Demo-Comp/coming-soon/coming-soon.compone
 import { ContactComponent } from './Demo-Comp/contact/contact.component';
 import { EventComponent } from './Demo-Comp/event/event.component';
 import { FaqComponent } from './Demo-Comp/faq/faq.component';
-import { IndexComponent } from './Demo-Comp/index/index.component';
 import { PortfolioComponent } from './Demo-Comp/portfolio/portfolio.component';
 import { PricesComponent } from './Demo-Comp/prices/prices.component';
 import { ProjectComponent } from './Demo-Comp/project/project.component';
@@ -42,7 +41,6 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     EventComponent,
     FaqComponent,
-    IndexComponent,
     PortfolioComponent,
     PricesComponent,
     ProjectComponent,

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {Home1Component} from "./Demo-Comp/home-1/home-1.component";
-import {IndexComponent} from "./Demo-Comp/index/index.component";
 import {Home2Component} from "./Demo-Comp/home-2/home-2.component";
 import {AboutUsComponent} from "./Demo-Comp/about-us/about-us.component";
 import {BlogComponent} from "./Demo-Comp/blog/blog.component";
@@ -28,7 +27,7 @@ import {TeamSingleComponent} from "./Demo-Comp/team-single/team-single.component
 const routes: Routes = [
   {
     path: '',
-    component: IndexComponent,
+    component: Home2Component,
   },
   {
     path: 'home_1',
