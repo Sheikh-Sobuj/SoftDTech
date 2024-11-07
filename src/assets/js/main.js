@@ -1,13 +1,4 @@
-/* -------------------------------------------
 
-Name: 		ITSulu
-Version:    1.1
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
-
-------------------------------------------- */
 
 $(function () {
 
@@ -230,18 +221,19 @@ $(function () {
         },
     });
 
-    var swiper = new Swiper('.mil-tabs-slider', {
-        slidesPerView: 1,
-        speed: 800,
-        allowTouchMove: false,
-        hashNavigation: {
-            watchState: true,
-        },
-        effect: 'fade',
-        parallax: true,
-    });
+  var swiper = new Swiper('.mil-tabs-slider', {
+    slidesPerView: 1,
+    speed: 800,
+    allowTouchMove: false,
+    hashNavigation: {
+      watchState: true,
+    },
+    effect: 'fade',
+    parallax: true,
+  });
 
-    $(".mil-tab-buttons a").on("click", function () {
+
+  $(".mil-tab-buttons a").on("click", function () {
         $('.mil-tab-buttons a').removeClass('mil-active');
         $(this).toggleClass('mil-active');
     });
@@ -257,10 +249,11 @@ $(function () {
         parallax: true,
     });
 
-    $(".mil-tabs-left-nav a").on("click", function () {
-        $('.mil-tabs-left-nav a').removeClass('mil-active');
-        $(this).toggleClass('mil-active');
-    });
+  $(".mil-tabs-left-nav a").on("click", function () {
+    $('.mil-tabs-left-nav a').removeClass('mil-active');
+    $(this).toggleClass('mil-active');
+  });
+
 
     const input = document.getElementById('mil-file-input');
     const label = document.getElementsByClassName("mil-custom-file-input")[0];
